@@ -1,0 +1,243 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.image-container{
+    position: relative;
+    display: inline-block;
+}
+
+.image-container img{
+    display: block;
+}
+
+.image-container .cyberimg{
+    background-image: url(image.jpg);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+}
+
+.image-container .logoimg{
+    top: 25px;
+    left: 190px;
+    width: 80px;
+    border-radius: 50%;
+    background-image: url(logo.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: relative;
+    height: auto;
+    position: absolute;
+    z-index: 2;
+}
+
+
+
+
+
+.background-icon {
+    position: absolute;          /* take it out of normal flow */
+    top: 7.9%;                    /* center vertically */
+    left: 85%;                   /* center horizontally */
+    transform: translate(-50%, -50%); /* perfect centering */
+    font-size: 35px;            /* big watermark */ /* faded like background */
+    color: white;
+    box-shadow: 1px 1px 3px white;
+    border-radius: 50%;
+    z-index: 1;                  /* stay behind everything */
+}
+
+
+.image-container .text1{
+    position: absolute;
+    top: 35%;    
+    left: 50%;     
+    font-family: Roboto;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 60px;
+    font-weight: bold;
+    text-shadow: 2px 2px 4px black;
+
+}
+
+.image-container .text11{
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    font-family: Roboto;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 65px;
+    font-weight: bold;
+    text-shadow: 2px 2px 4px black;
+
+}
+
+.image-container .text2{
+    position: absolute;
+    top: 55%;
+    left: 50%;
+    font-family: Oswald;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 25px;
+    font-weight: lighter;
+    text-shadow: 1px 1px 3px black;
+
+}
+
+.image-container .text3{
+    position: absolute;
+    top: 65%;
+    left: 50%;
+    font-family: Oswald;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 20px;
+    font-weight: lighter;
+    text-shadow: 1px 1px 3px black;
+    text-align: center;
+
+}
+
+.image-container .text4{
+    position: absolute;
+    top: 7.4%;
+    left: 22.5%;
+    font-family: Microgramma;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 40px;
+    font-weight: lighter;
+    text-shadow: 1px 1px 3px black;
+    text-align: center;
+
+}
+
+.image-container .text5{
+    position: absolute;
+    top: 10.5%;
+    left: 22.6%;
+    font-family: Roboto Condensed;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 20px;
+    font-weight: lighter;
+    text-shadow: 1px 1px 3px black;
+    text-align: center;
+}
+
+.image-container .nextpage{
+    position: absolute;
+    top: 200%;
+    left: 22.6%;
+    font-family: Roboto Condensed;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 20px;
+    font-weight: lighter;
+    text-shadow: 1px 1px 3px black;
+    text-align: center;
+}
+
+
+.image-container .text6{
+    position: absolute;
+    top: 110%;
+    left: 50%;
+    font-family: Roboto Condensed;
+    transform: translate(-50%, -50%);
+    color: rgb(0, 0, 0);
+    font-size: 45px;
+    font-weight: lighter;
+    text-align: center;
+}
+
+
+
+/* 
+.button{
+    text-align: c;
+} */
+
+
+
+/*but why can't I call just only .button? like the code doesn't affect the button.*/
+.button .home{
+    position: absolute;
+    bottom: 88%;
+    right: 40%;
+    font-family: Roboto;
+    transform: translate(-50%, -50%);
+    font-size: 20px;
+    font-weight: lighter;
+    text-align: top;
+}
+
+.button .about-us{
+    position: absolute;
+    bottom: 88%;
+    right: 30%;
+    font-family: Roboto;
+    transform: translate(-50%, -50%);
+    font-size: 20px;
+    font-weight: lighter;
+    text-align: top;
+}
+
+
+.button .contact{
+    position: absolute;
+    bottom: 88%;
+    right: 22%;
+    font-family: Roboto;
+    transform: translate(-50%, -50%);
+    font-size: 20px;
+    font-weight: lighter;
+    text-align: top;
+}
+
+
+.button .login{
+    position: absolute;
+    bottom: 88%;
+    right: 16%;
+    font-family: Roboto;
+    transform: translate(-50%, -50%);
+    font-size: 20px;
+    font-weight: lighter;
+    text-align: top;
+    box-shadow: 2px 2px 3px black;
+}
+
+.button .signup{
+    padding: 10px 10px;
+    position: absolute;
+    top: 78%;
+    border-radius: 20%;
+    left: 44%;
+    font-family: Geometric sans-serif;
+    transform: translate(-50%,-50%);
+    font-size: 25px;
+    background-color: #b700ff;
+}
+
+.button .get{
+    padding: 10px 10px;
+    position: absolute;
+    top: 78%;
+    border-radius: 20%;
+    left: 58%;
+    font-family: Geometric sans-serif;
+    transform: translate(-50%,-50%);
+    font-size: 25px;
+    background-color: #b700ff;
+}
+
