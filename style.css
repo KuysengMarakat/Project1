@@ -1,4 +1,4 @@
-*{
+ *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -18,7 +18,7 @@
     background-size: cover;
     background-position: center;
     position: relative;
-    width: 100vw;
+    width: 98.94vw;
     height: 100vh;
 }
 
@@ -51,6 +51,7 @@
     box-shadow: 1px 1px 3px white;
     border-radius: 50%;
     z-index: 1;                  /* stay behind everything */
+    cursor: pointer;
 }
 
 
@@ -136,7 +137,7 @@
 
 .image-container .nextpage{
     position: absolute;
-    top: 200%;
+    top: 300%;
     left: 22.6%;
     font-family: Roboto Condensed;
     transform: translate(-50%, -50%);
@@ -155,17 +156,49 @@
     font-family: Roboto Condensed;
     transform: translate(-50%, -50%);
     color: rgb(0, 0, 0);
-    font-size: 45px;
+    font-size: 55px;
     font-weight: lighter;
     text-align: center;
 }
 
+.sp1{
+    margin: 20px;
+    position: absolute;
+    top: 115%;
+    left: 49%;
+    font-family: Roboto condensed;
+    transform: translate(-50%, -50%);
+    color: blcak;
+    font-size: 20px;
+    font-weight: lighter;
+    text-align: center;
+}
+
+.text-container .all{
+    position: absolute;
+    top: 120%;
+    left: 50%;
+    border-color: black;
+}
+
+.text-container .s-gray{
+    background-color: rgb(222, 208, 208);
+    padding: 50px 20px;
+    min-height: 400px;
+}
+
+.sp2{
+    position: absolute;
+    transform: translate(-50%,-50%);
+    top: 145%;
+    left: 50%;
+    font-size: 30px;
+    font-weight: lighter;
+}
 
 
-/* 
-.button{
-    text-align: c;
-} */
+
+
 
 
 
@@ -179,6 +212,7 @@
     font-size: 20px;
     font-weight: lighter;
     text-align: top;
+    cursor: pointer;
 }
 
 .button .about-us{
@@ -190,6 +224,7 @@
     font-size: 20px;
     font-weight: lighter;
     text-align: top;
+    cursor: pointer;
 }
 
 
@@ -202,6 +237,7 @@
     font-size: 20px;
     font-weight: lighter;
     text-align: top;
+    cursor: pointer;
 }
 
 
@@ -215,6 +251,7 @@
     font-weight: lighter;
     text-align: top;
     box-shadow: 2px 2px 3px black;
+    cursor: pointer;
 }
 
 .button .signup{
@@ -227,6 +264,7 @@
     transform: translate(-50%,-50%);
     font-size: 25px;
     background-color: #b700ff;
+    cursor: pointer;
 }
 
 .button .get{
@@ -239,5 +277,62 @@
     transform: translate(-50%,-50%);
     font-size: 25px;
     background-color: #b700ff;
+    cursor: pointer;
+    /* text-decoration: underline; */
 }
+
+.button{
+    display: flex;
+    gap: 12px;
+}
+
+.button .all, .fun, .red, .blue{
+    padding: 10px 100px;
+    top: 120%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    background-color: #777;
+    color: white;
+    font-weight: bold;
+    border: none;
+    border-radius: 999px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease, transform 0.15s ease;
+}
+
+.button .all{
+    background-color: black;
+    color: white;
+    top: 130%;
+    left: 20%;
+}
+
+.button .fun{
+    top: 130%;
+    left: 38.6%;
+}
+
+.button .red{
+    top: 130%;
+    left: 59.1%;
+}
+
+.button .blue{
+    top: 130%;
+    left: 78.9%;
+}
+
+
+.button:hover:not(.active){
+    background-color: #555;
+}
+
+.button:active{
+    transform: scale(0.95);
+}
+
+
+
 
