@@ -4,6 +4,20 @@
     box-sizing: border-box;
 }
 
+body{
+    display: flex;
+    flex-shrink: 1;
+    /* grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 200px 200px; */
+}
+/* 
+@media{
+    body{
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 200px 200px;
+    }
+} */
+
 .image-container{
     position: relative;
     display: inline-block;
@@ -268,6 +282,8 @@
 }
 
 .button .get{
+    /* background-color: #b700ff;
+    cursor: pointer; */
     padding: 10px 10px;
     position: absolute;
     top: 78%;
@@ -278,7 +294,7 @@
     font-size: 25px;
     background-color: #b700ff;
     cursor: pointer;
-    /* text-decoration: underline; */
+
 }
 
 .button{
